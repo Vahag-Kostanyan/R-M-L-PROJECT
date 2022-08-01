@@ -1,0 +1,76 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    padding: 5px 10px 5px 30px;
+}
+.home-conteiner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.todos-form{
+    box-sizing: content-box;
+    width: 700px;
+    display: flex;
+    gap: 30px;
+    padding: 60px 60px;
+}
+
+.todos-form:nth-child(1){
+    height: 34px;
+}
+
+.add-btn{
+    font-size: 17px;
+    background-color: #212529;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 15px;
+}
+
+
+.add-btn:hover{
+    background-color: #4d5154;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-delete-todo, .btn-edit-todo{
+    padding: 1px 5px;        
+    font-size: 17px;
+}
+.btn-edit-todo{
+    margin-left: 10px;
+}
+
+.todo-conteiner-edit-form{
+    display: flex;
+    align-items: center;
+}
+
+.todo-conteiner-edit-form-input{
+    height: 25px;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
